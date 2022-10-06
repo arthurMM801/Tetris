@@ -1,3 +1,3 @@
 # Tetris
 
-Tetris desemvolvido com css, html e JavaScript
+Tetris desenvolvido com CSS, HTML e JavaScript.
