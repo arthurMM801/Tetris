@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel='stylesheet' href='tetris.css'>
+
+</head>
+
+<body>
+    
+
+    <audio id="fall" src="fall.wav"></audio>
+    <audio id="line" src="line.wav"></audio>
+    <audio id="musica" src="Tetris.mp3"></audio>
+    <audio id="selection" src="selection.wav"></audio>
+
+
+    <div class="conteiner">
+        <div class="pontos">
+            <p><label id="linhas"></label></p>   
+
+            <p><label id="nivel"></label></p>
+
+            <p><label id="pontuacao"></label></p>
+
+        </div>
+
+        <div class="tabuleiros">
+            <div class="tabuleiro">
+                <canvas id="tela" width="200" height="400" onclick="comecar()"></canvas>
+            </div>
+
+            <div class="pecas">
+                <canvas id="proximasPecas" width="70" height="140"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="tetris.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body{
+    font-size: 18px;
+    background-color: aquamarine;
+}
+
+.conteiner{
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 450px;
+}
+
+.pontos{
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+}
+
+.tabuleiros{
+    float: right;    
+}
+
+.tabuleiro{
+    
+    float: left;    
+}
+
+#tela{
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+#proximasPecas{
+    border: 3px solid gray;
+    border-radius: 7px;
+}
+
+.pecas{
+    
+    margin-left: 5px;
+    float: right;
+}
+
+
+
+
+
+
+
